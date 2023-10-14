@@ -2,7 +2,7 @@
 
 Data yang digunakan pada project ini adalah data dari tahun 2014-2017 pada 12 statiun cuaca China yang diambil pada [sumber berikut]('https://github.com/marceloreis/HTI/tree/master/PRSA_Data_20130301-20170228')
 
-Project dibuat dengan menggunakan bahasa Pyhton
+Project dibuat dengan menggunakan bahasa Pyhton dengan versi Python 3.10.6
 
 ```
 pip install pandas matplotlib seaborn numpy streamlit altair pyplot
@@ -34,7 +34,7 @@ streamlit run dashboard/dashboard.py
 
 ### Preview
 
-Dashboard Kualitas Partikel PM2.5 dan PM10 Terhadap Hujan dapat dikses pada [Link text](https://website-name.com)
+Dashboard Kualitas Partikel PM2.5 dan PM10 Terhadap Hujan dapat dikses pada [https://app-aqi-project-brew.streamlit.app/](https://app-aqi-project-brew.streamlit.app/)
 
 
 ![preview-dashboard](/preview-dashboard.png)
