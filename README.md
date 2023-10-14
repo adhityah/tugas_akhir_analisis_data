@@ -1,6 +1,6 @@
 # Pengaruh hujan pada partikel PM2.5 dan PM10
 
-Data yang digunakan pada project ini adalah data dari tahun 2014-2017 pada 12 statiun cuaca China yang diambil pada [sumber berikut]('https://github.com/marceloreis/HTI/tree/master/PRSA_Data_20130301-20170228')
+Data yang digunakan pada project ini adalah data dari tahun 2014-2016 pada 12 statiun cuaca China yang diambil pada [sumber berikut]('https://github.com/marceloreis/HTI/tree/master/PRSA_Data_20130301-20170228')
 
 Project dibuat dengan menggunakan bahasa Pyhton dengan versi Python 3.10.6
 
