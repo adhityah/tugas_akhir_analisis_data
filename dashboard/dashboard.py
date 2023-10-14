@@ -9,11 +9,9 @@ import altair as alt
 df = pd.read_csv('dashboard/main_data.csv')
 
 
-st.header('Dashborad Kualitas Partikel PM2.5 dan PM10 Terhadap Hujan')
 
 with st.sidebar:
-    st.image("dashboard/icon.jpg")    
-    st.text('Image by macrovector on Freepik')
+    st.header('Filter:')
     year_filter = st.sidebar.multiselect(
         "Tahun:",
         options=df["year"].unique(),
@@ -33,6 +31,8 @@ df_data = df.query(
 
 
 with st.container():    
+    st.header('Dashborad Kualitas Partikel PM2.5 dan PM10 Terhadap Hujan')
+
     st.subheader('Pengaruh hujan pada partikel PM2.5 dan PM10')
     df_summary = df_data.groupby(['month'], as_index=False).agg({
         'PM2.5' : 'mean',

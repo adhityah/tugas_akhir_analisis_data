@@ -32,8 +32,10 @@ Trakhir, terdapat grafik partikel PM2.5 dan PM10 terhadap intensitas hujan yang 
 streamlit run dashboard/dashboard.py
 ```
 
-
 ### Preview
 
+Dashboard Kualitas Partikel PM2.5 dan PM10 Terhadap Hujan dapat dikses pada [Link text](https://website-name.com)
 
+
+![preview-dashboard](/preview-dashboard.png)
 
